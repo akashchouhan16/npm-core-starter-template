@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "14"
+  - "16"
+  - "18"
+
+branches:
+  only:
+    - production
+
+script:
+  - echo '-> ------------- Starting package Build & Tests -------------'
+  - echo '-> Installing Dependencies...'
+  - npm ci
+  - echo '-> Running Unit Tests...'
+  - npm test
+
+# Skip builds for pull requests
+pull_request: false
