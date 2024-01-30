@@ -1,0 +1,22 @@
+{
+  "name": "templatepackage_github.com_akashchouhan16",
+  "version": "1.0.0",
+  "description": "Created from github.com/akashchouhan16 NPM Dev Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "npx jest --ci --coverage",
+    "export-coverage-report": "npx jest --ci --json --coverage --testLocationInResults --outputFile=report.json",
+    "lint": "eslint .  --ext .js",
+    "lint-fix": "eslint --fix .  --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashchouhan16/"
+  },
+  "dependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-jest": "^27.6.3",
+    "jest": "^29.7.0"
+  }
+}
