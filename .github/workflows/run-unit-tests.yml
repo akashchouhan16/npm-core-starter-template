@@ -6,7 +6,7 @@ name: Node.js CI - Unit Tests
 
 on:
   push:
-    branches: [ "master", "dev" ]
+    branches: [ "branch", "dev" ]
   pull_request:
     branches: [ "publish" ]
 
